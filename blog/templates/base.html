@@ -23,14 +23,8 @@
         </div>
     </header>
 
-    <!--Filtro de Posts-->
-    <div class="filtro-post container">
-        <span class="filtro-item filtro-ativo" data-filter="todos">Todos</span>
-        <a href="hormonais.html"><span class="filtro-item" data-filter="hormonal">Hormonal</a></span>
-        <a href="barreira.html"><span class="filtro-item" data-filter="barreira">Barreira</span></a>
-        <a href="cirurgico.html"><span class="filtro-item" data-filter="cirurgico">Cirúrgico</span></a>
-        <a href="comportamental.html"><span class="filtro-item" data-filter="comportamental">Comportamental</a></span>
-    </div>
+    {% block content %}
+    {% endblock content%}
 
     <!--Rodapé-->
     <div class="rodape container">
